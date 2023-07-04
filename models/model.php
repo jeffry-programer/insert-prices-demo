@@ -1,5 +1,5 @@
 <?php
-    require_once "../insert-prices/connection.php";
+    require_once "connection.php";
 
     class GeneralModel{
         public function mdlQueryAllRegister($table, $attr){
